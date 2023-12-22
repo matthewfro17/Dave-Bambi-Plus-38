@@ -80,7 +80,6 @@ class FlxSoundGroup
 		this.volume = volume;
 		for (sound in sounds)
 		{
-			sound.updateTransform();
 		}
 		return volume;
 	}
