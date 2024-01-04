@@ -2482,7 +2482,7 @@ class PlayState extends MusicBeatState
 				sprites.add(expungedBG);
 				add(expungedBG);
 				voidShader(expungedBG);
-			case 'red-void' | 'green-void' | 'glitchy-void' | 'omission' | "banana-hell":
+			case 'red-void' | 'green-void' | 'glitchy-void' | 'omission' | "banana-hell" | "mixed-void":
 				bgZoom = 0.7;
 
 				var bg:BGSprite = new BGSprite('void', -600, -200, '', null, 1, 1, false, true);
@@ -2513,6 +2513,10 @@ class PlayState extends MusicBeatState
 						bg.setGraphicSize(Std.int(bg.width * 2.55), Std.int(bg.height * 2));
 					        weirdBG = bg;
 					        stageName = 'banana-land';
+					case 'mixed-void':
+						bgZoom = 0.8;
+						bg.loadGraphic(Paths.image('backgrounds/void/mixed', 'shared'));
+						stageName = 'mixed';
 				}
 				sprites.add(bg);
 				add(bg);
