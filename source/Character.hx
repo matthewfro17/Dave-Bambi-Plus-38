@@ -872,6 +872,31 @@ class Character extends FlxSprite
 		
 				playAnim('idle');
 
+			case 'bambi-pissboy':
+				// BAMBI SHITE ANIMATION LOADING CODE
+				frames = Paths.getSparrowAtlas('characters/bambi_pissyboy');
+				animation.addByIndices('danceLeft', 'idle', [for (i in 0...13) i], "", 24, false);
+				animation.addByIndices('danceRight', 'idle', [for (i in 13...23) i], "", 24, false);
+				for (anim in ['left', 'down', 'up', 'right']) {
+					animation.addByPrefix('sing${anim.toUpperCase()}', anim, 24, false);
+				}
+				for (anim in ['left', 'right'])
+				{
+					animation.addByPrefix('sing${anim.toUpperCase()}-alt', 'smash', 24, false);
+				}
+
+				globalOffset = [-300, -150];
+
+				loadOffsetFile(curCharacter + (isPlayer ? '-playable' : ''));
+
+				barColor = FlxColor.fromRGB(60, 215, 80);
+
+				setGraphicSize(Std.int(width / furiosityScale));
+				updateHitbox();
+				antialiasing = false;
+		
+				playAnim('danceRight');
+
 			case 'bambi-new':
 				frames = Paths.getSparrowAtlas('bambi/bambiRemake', 'shared');
 				animation.addByPrefix('idle', 'bambi idle', 24, false);
