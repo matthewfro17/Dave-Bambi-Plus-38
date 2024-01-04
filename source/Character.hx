@@ -878,11 +878,11 @@ class Character extends FlxSprite
 				animation.addByIndices('danceLeft', 'idle', [for (i in 0...13) i], "", 24, false);
 				animation.addByIndices('danceRight', 'idle', [for (i in 13...23) i], "", 24, false);
 				for (anim in ['left', 'down', 'up', 'right']) {
-					animation.addByPrefix('sing${anim.toUpperCase()}', anim, 24, false);
+					animation.addByPrefix('{anim.toUpperCase()}', anim, 24, false);
 				}
 				for (anim in ['left', 'right'])
 				{
-					animation.addByPrefix('sing${anim.toUpperCase()}-alt', 'smash', 24, false);
+					animation.addByPrefix('{anim.toUpperCase()}-alt', 'smash', 24, false);
 				}
 
 				globalOffset = [-300, -150];
