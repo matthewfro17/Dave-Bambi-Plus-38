@@ -874,7 +874,7 @@ class Character extends FlxSprite
 
 			case 'bambi-pissboy':
 				// BAMBI SHITE ANIMATION LOADING CODE
-				frames = Paths.getSparrowAtlas('characters/bambi_pissyboy');
+				frames = Paths.getSparrowAtlas('characters/bambi_pissyboy', 'shared');
 				animation.addByIndices('danceLeft', 'idle', [for (i in 0...13) i], "", 24, false);
 				animation.addByIndices('danceRight', 'idle', [for (i in 13...23) i], "", 24, false);
 				for (anim in ['left', 'down', 'up', 'right']) {
