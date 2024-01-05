@@ -8927,11 +8927,11 @@ class PlayState extends MusicBeatState
 						case 320:
 							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub11'), 0.02, 1);
 						case 344:
-							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub12'), 0.02, 1;
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub12'), 0.02, 1);
 						case 384:
 							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub13'), 0.02, 1);
 						case 392;
-							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub14'), 0.02, 1);
+						        subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub14'), 0.02, 1);
 						case 426:
 							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub15'), 0.02, 1);
 						case 437:
