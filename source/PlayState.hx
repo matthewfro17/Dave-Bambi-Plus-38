@@ -8900,6 +8900,48 @@ class PlayState extends MusicBeatState
 							#end
 						case 2083:
 							PlatformUtil.sendWindowsNotification("Anticheat.dll", "Threat expunged.dat successfully contained.");
+					}			
+				case 'cheating-not-cute':
+					switch (curStep)
+					{
+						case 0:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub1'), 0.02, 1);
+						case 34:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub2'), 0.02, 1);
+						case 66:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub3'), 0.02, 1);
+						case 97:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub4'), 0.02, 1);
+						case 130:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub5'), 0.02, 1);
+						case 146:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub6'), 0.02, 1;
+						case 192:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub7'), 0.02, 1);
+						case 218:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub8'), 0.02, 1);
+						case 256:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub9'), 0.02, 1);
+						case 292:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub10'), 0.02, 1);
+						case 320:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub11'), 0.02, 1);
+						case 344:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub12'), 0.02, 1;
+						case 384:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub13'), 0.02, 1);
+						case 392;
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub14'), 0.02, 1);
+						case 426:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub15'), 0.02, 1);
+						case 437:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub16'), 0.02, 1);
+						case 462:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub17'), 0.02, 1);
+						case 470:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub18'), 0.02, 1);
+						case 502:
+							subtitleManager.addSubtitle(LanguageManager.getTextString('cnc_sub19'), 0.02, 1);
 					}
 				case 'shredder':
 					switch (curStep)
