@@ -806,9 +806,7 @@ class PlayState extends MusicBeatState
 				case 'foolhardy':
 					stageCheck = 'fuckyouZardyTime';
 				case 'omission':
-					stageCheck = 'omission';			
-				case 'cheating-not-cute:
-					stageCheck = 'mixed-void';
+					stageCheck = 'omission';
 			}
 		}
 		else
