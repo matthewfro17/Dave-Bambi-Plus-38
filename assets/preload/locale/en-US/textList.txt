@@ -435,6 +435,27 @@ foolhardy_sub6==Oh is not me is Marcello he dead...
 foolhardy_sub6.1==NOW IS!!! fuck you...
 foolhardy_sub7==He dead, Rest In Peace!
 
+// Cheating Not Cute Subtitles //
+cnc_sub1==Oh my god, you BASTARD!!!
+cnc_sub2==Huh?
+cnc_sub3==YOU FUCKING LIAR-!!!
+cnc_sub4==I don't know what you're talking about.
+cnc_sub5==PHONE!
+cnc_sub6==Oh my god, how did you find out?!
+cnc_sub7==CALLING MEEE!!!
+cnc_sub8==Oh my god, Baldi called you?!?
+cnc_sub9==Holy shit!!
+cnc_sub10==I'm sorry, Bambi. I swear-
+cnc_sub11==Fucking kill yourself!
+cnc_sub12==Excuse me, you toddler-looking ass farmer midget!!
+cnc_sub13==Dick!
+cnc_sub14==You want a divorce? Fine,
+cnc_sub15==one condition,
+cnc_sub16==I get EVERYTHING. The kid,
+cnc_sub17==the farm,
+cnc_sub18=EVERYTHING.
+cnc_sub19==Fuck you!!!
+
 
 3d_gameOver_polygonized==You've been Polygonized!
 3d_gameOver_restart==Restart?
