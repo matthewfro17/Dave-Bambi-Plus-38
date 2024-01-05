@@ -57,7 +57,7 @@ class FreeplayState extends MusicBeatState
 
 	var songColors:Array<FlxColor> = 
 	[
-    	0xFF00137F,    // GF but its actually dave!
+        	0xFF00137F,    // GF but its actually dave!
 		0xFF4965FF,    // DAVE
 		0xFF00B515,    // MISTER BAMBI RETARD (thats kinda rude ngl)
 		0xFF00FFFF,    // SPLIT THE THONNNNN
@@ -80,7 +80,8 @@ class FreeplayState extends MusicBeatState
 		0xFFFFFFFF,    // cuzsiee
 		0xFF000000,    // dan
 		FlxColor.fromRGB(216, 176, 87), // Doge
-    ];
+		FlxColor.fromRGB(60, 215, 80), // Bambi Pissbioy
+	];
 	public static var skipSelect:Array<String> = 
 	[
 		'five-nights',
@@ -95,7 +96,8 @@ class FreeplayState extends MusicBeatState
 		'electric-cockaldoodledoo',
 		'super-saiyan',
 		'foolhardy',
-		'doge-vs-bambi'
+		'doge-vs-bambi',
+		'cheating-not-cute'
 	];
 
 	public static var noExtraKeys:Array<String> = 
@@ -135,7 +137,8 @@ class FreeplayState extends MusicBeatState
 		'bonkers',
 		'duper',
                 'omission',
-		'doge-vs-bambi'
+		'doge-vs-bambi',
+		'cheating-not-cute'
 	];
 
 	private var camFollow:FlxObject;
